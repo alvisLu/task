@@ -1,5 +1,8 @@
 import app from './app';
+import 'dotenv/config';
 
-app.listen(8000, () => {
-  console.log('Server listening on port 8000');
+const { PORT = 8000, NODE_ENV } = process.env;
+
+app.listen(PORT, () => {
+  console.log(`Server listening on port ${PORT}, ${NODE_ENV}`);
 });

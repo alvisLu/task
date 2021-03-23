@@ -17,8 +17,6 @@
     "@types/node": "^14.14.33",
     "@typescript-eslint/eslint-plugin": "^4.17.0",
     "@typescript-eslint/parser": "^4.17.0",
-    "body-parser": "^1.19.0",
-    "dotenv": "^8.2.0",
     "eslint": "^7.21.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-airbnb-base": "^14.2.1",
@@ -29,13 +27,15 @@
     "husky": "^4.*.*",
     "lint-staged": "^10.5.4",
     "mongodb": "^3.6.3",
-    "mongoose": "^5.11.15",
     "nodemon": "^2.0.7",
     "prettier": "^2.2.1",
     "ts-node": "^9.1.1",
     "typescript": "^4.2.3"
   },
   "dependencies": {
+    "mongoose": "^5.11.15",
+    "dotenv": "^8.2.0",
+    "body-parser": "^1.19.0",
     "express": "^4.17.1"
   }
 }
