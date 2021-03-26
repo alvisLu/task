@@ -8,6 +8,6 @@ const TaskSchema = new mongoose.Schema({
   isDone: Boolean,
 });
 
-const taskModel = mongoose.model<ITask & mongoose.Document>('Task', taskSchema);
+const TaskModel = mongoose.model<ITask & mongoose.Document>('Task', TaskSchema);
 
 export default TaskModel;

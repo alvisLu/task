@@ -4,7 +4,7 @@ import TaskModel from '../models/taskModel';
 const router = express.Router();
 
 router.get('/', async (req, res) => {
-  const tasks = await taskModel.find();
+  const tasks = await TaskModel.find();
   res.send(tasks);
 });
 
